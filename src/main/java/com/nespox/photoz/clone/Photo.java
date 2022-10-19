@@ -1,7 +1,11 @@
 package com.nespox.photoz.clone;
 
+import javax.validation.constraints.NotEmpty;
+
 public class Photo {
     private String id;
+
+    @NotEmpty
     private String fileName;
 
     public Photo() {
